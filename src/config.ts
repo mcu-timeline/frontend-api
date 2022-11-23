@@ -1,4 +1,4 @@
-const DEFAULT_PORT = 4000;
+const DEFAULT_PORT = 3001;
 
 export type Config = {
   PORT: number;
