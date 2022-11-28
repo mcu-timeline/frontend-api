@@ -22,6 +22,10 @@ import { config, Config } from './config';
                 name: configService.get('CONTENT_API_FEDERATION_NAME'),
                 url: configService.get('CONTENT_API_FEDERATION_URL'),
               },
+              {
+                name: configService.get('PROGRESS_API_FEDERATION_NAME'),
+                url: configService.get('PROGRESS_API_FEDERATION_URL'),
+              },
             ],
           }),
         },
